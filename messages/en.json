@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "publications": "Publications",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Yuki Iwahashi",
+    "title": "AI Computing Engineer",
+    "description": "Specializing in processor design, computer architecture, and AI model optimization. Building the future of intelligent computing.",
+    "cta": "View My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a researcher and engineer specializing in AI computing, with deep expertise in processor design, computer architecture, and AI/ML model development. My work focuses on bridging the gap between hardware and software to enable the next generation of intelligent systems.",
+    "skillsTitle": "Skills & Expertise",
+    "categories": {
+      "architecture": "Computer Architecture",
+      "ai": "AI / Machine Learning",
+      "hardware": "Hardware Design",
+      "software": "Software & Tools"
+    },
+    "skills": {
+      "architecture": [
+        "Processor Design",
+        "RISC-V",
+        "Memory Hierarchy",
+        "Pipeline Optimization"
+      ],
+      "ai": [
+        "Deep Learning",
+        "Neural Network Optimization",
+        "Transformer Architecture"
+      ],
+      "hardware": [
+        "FPGA",
+        "Verilog / SystemVerilog"
+      ],
+      "software": [
+        "Python",
+        "C/C++",
+        "PyTorch",
+        "Linux"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "filterAll": "All",
+    "viewCode": "Code",
+    "viewDemo": "Demo",
+    "viewPaper": "Paper",
+    "categories": {
+      "architecture": "Architecture",
+      "ai": "AI/ML",
+      "hardware": "Hardware",
+      "software": "Software"
+    },
+    "items": [
+      {
+        "title": "RISC-V 32I Processor Design",
+        "description": "Designed a RISC-V32I processor core with 5 stages of pipeline and 32 registers.",
+        "tags": ["RISC-V", "Verilog", "Pipeline", "Register"],
+        "category": "architecture",
+        "github": "https://github.com/yukuri611/RISC-V_CPU",
+        "demo": ""
+      },
+      {
+        "title": "RISC-V 64IMA Processor Design with xv6",
+        "description": "Designed a RISC-V64IMA processor core with 5 stages of pipeline and 32 registers. The processor is capable of running the xv6 operating system.",
+        "tags": ["RISC-V", "Verilog", "Pipeline", "Register", "xv6"],
+        "category": "architecture",
+        "github": "",
+        "demo": ""
+      },
+      {
+        "title": "self deeplearning framework(dezero)",
+        "description": "Developed a self-made deeplearning framework with only numpy. The framework is capable of training and inference of deep learning models.",
+        "tags": ["Python", "Numpy", "Deep Learning", "Framework"],
+        "category": "ai", 
+        "github": "https://github.com/yukuri611/zero3",
+        "demo": ""
+      },
+      {
+        "title": "8-bit CPU (Built with Electronic Circuits)",
+        "description": "Designed and built an 8-bit CPU from scratch using electronic circuits. Gained hands-on understanding of fundamental computer architecture principles.",
+        "tags": ["Digital Circuit", "CPU", "8-bit", "Hardware"],
+        "category": "hardware",
+        "github": "",
+        "demo": ""
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "items": [
+      {
+        "title": "Writing...",
+        "authors": "",
+        "venue": "",
+        "year": "",
+        "doi": "",
+        "pdf": ""
+      }
+    ]
+  },
+  "resume": {
+    "title": "Resume",
+    "download": "Download PDF",
+    "experience": "Experience",
+    "education": "Education",
+    "timeline": [
+      {
+        "type": "experience",
+        "title": "Internship at Marubeni Degital Experts",
+        "organization": "Marubeni Degital Experts",
+        "period": "2026/02 - 2026/03",
+        "description": "Analysis of power generation data from solar power plants in Mexico. Proposing cleaning schedules for each location based on the analysis data."
+      },
+      {
+        "type": "experience",
+        "title": "Internship at Fixstars",
+        "organization": "Fixstars",
+        "period": "2025/04 - 2025/06",
+        "description": "Research on Vision Language Model(Ovis2, InternVL) to run on edge devices(drone). Intended for use in locating people lost in snowy mountains."
+      },
+      {
+        "type": "education",
+        "title": "Belonging to Research Laboratory",
+        "organization": "AI computing research unit (ArtIC)",
+        "period": "2025/12 - Now",
+        "description": "Research focus on AI computing. Submitting papers to top conferences such as NeurIPS, ISSCC, HPCA, and ISCA."
+      },
+      {
+        "type": "education",
+        "title": "B.S. in Information and Communications Engineering",
+        "organization": "Institute of Science Tokyo",
+        "period": "2023 - Now",
+        "description": "Studying computer science and engineering."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Interested in collaboration or have a question? Feel free to reach out.",
+    "email": "yukiiw611@gmail.com",
+    "emailLabel": "Email",
+    "linksLabel": "Find me on"
+  },
+  "footer": {
+    "copyright": "© 2026 Yuki Iwahashi. All rights reserved."
+  }
+}

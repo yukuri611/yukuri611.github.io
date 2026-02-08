@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "about": "自己紹介",
+    "projects": "プロジェクト",
+    "publications": "論文",
+    "resume": "経歴",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "greeting": "こんにちは、",
+    "name": "岩橋 佑季",
+    "title": "AIコンピューティングエンジニア",
+    "description": "プロセッサ設計、計算機アーキテクチャ、AIモデル最適化を専門とし、インテリジェントコンピューティングの未来を構築しています。",
+    "cta": "成果を見る"
+  },
+  "about": {
+    "title": "自己紹介",
+    "description": "AIコンピューティングを専門とする研究者・エンジニアです。プロセッサ設計、計算機アーキテクチャ、AI/MLモデル開発において深い専門知識を持ち、ハードウェアとソフトウェアの架け橋となる次世代インテリジェントシステムの実現に取り組んでいます。",
+    "skillsTitle": "スキル・専門分野",
+    "categories": {
+      "architecture": "計算機アーキテクチャ",
+      "ai": "AI / 機械学習",
+      "hardware": "ハードウェア設計",
+      "software": "ソフトウェア・ツール"
+    },
+    "skills": {
+      "architecture": [
+        "プロセッサ設計",
+        "RISC-V",
+        "メモリ階層",
+        "パイプライン最適化"
+      ],
+      "ai": [
+        "深層学習",
+        "ニューラルネットワーク最適化",
+        "Transformerアーキテクチャ"
+      ],
+      "hardware": [
+        "FPGA",
+        "Verilog / SystemVerilog"
+      ],
+      "software": [
+        "Python",
+        "C/C++",
+        "PyTorch",
+        "Linux"
+      ]
+    }
+  },
+  "projects": {
+    "title": "プロジェクト",
+    "filterAll": "すべて",
+    "viewCode": "コード",
+    "viewDemo": "デモ",
+    "viewPaper": "論文",
+    "categories": {
+      "architecture": "アーキテクチャ",
+      "ai": "AI/ML",
+      "hardware": "ハードウェア",
+      "software": "ソフトウェア"
+    },
+    "items": [
+      {
+        "title": "RISC-V 32I プロセッサ設計",
+        "description": "5段パイプラインと32本のレジスタを備えたRISC-V32Iプロセッサコアを設計。",
+        "tags": ["RISC-V", "Verilog", "Pipeline", "Register"],
+        "category": "architecture",
+        "github": "https://github.com/yukuri611/RISC-V_CPU",
+        "demo": ""
+      },
+      {
+        "title": "RISC-V 64IMA プロセッサ設計（xv6対応）",
+        "description": "5段パイプラインと32本のレジスタを備えたRISC-V64IMAプロセッサコアを設計。xv6オペレーティングシステムの動作が可能。",
+        "tags": ["RISC-V", "Verilog", "Pipeline", "Register", "xv6"],
+        "category": "architecture",
+        "github": "",
+        "demo": ""
+      },
+      {
+        "title": "自作深層学習フレームワーク（dezero）",
+        "description": "NumPyのみを用いて深層学習フレームワークを自作（ゼロからつくるDeepLearning 3を参考にした）。深層学習モデルの学習と推論が可能。",
+        "tags": ["Python", "Numpy", "Deep Learning", "Framework"],
+        "category": "ai",
+        "github": "https://github.com/yukuri611/zero3",
+        "demo": ""
+      },
+      {
+        "title": "8bit CPU (電子回路で作成)",
+        "description": "8bit CPU を電子回路で作成。クロックやレジスタ、ALU（加算減算のみ実装）などのCPUの基本コンポーネントを一度は電子回路で制作したいと考え挑戦。Ben Eaterさんの動画を参考にしました。",
+        "tags": ["Digital Circuit", "CPU", "8-bit", "Hardware"],
+        "category": "hardware",
+        "github": "",
+        "demo": ""
+      }
+    ]
+  },
+  "publications": {
+    "title": "論文",
+    "items": [
+      {
+        "title": "執筆中...",
+        "authors": "",
+        "venue": "",
+        "year": "",
+        "doi": "",
+        "pdf": ""
+      }
+    ]
+  },
+  "resume": {
+    "title": "経歴",
+    "download": "PDFをダウンロード",
+    "experience": "職歴",
+    "education": "学歴",
+    "timeline": [
+      {
+        "type": "experience",
+        "title": "丸紅 デジタルエキスパーツでのインターンシップ",
+        "organization": "デジタルエキスパーツ株式会社",
+        "period": "2026/02 - 2026/03",
+        "description": "メキシコの太陽光発電所の発電データ分析。分析データに基づき、各サイトのクリーニングスケジュールを提案。"
+      },
+      {
+        "type": "experience",
+        "title": "フィックスターズでのインターンシップ",
+        "organization": "株式会社フィックスターズ",
+        "period": "2025/04 - 2025/06",
+        "description": "Vision Language Model（Ovis2, InternVL）をエッジデバイス（ドローン）上で動作させるための研究。雪山での遭難者捜索への活用を目的とする。"
+      },
+      {
+        "type": "education",
+        "title": "研究室配属",
+        "organization": "AIコンピューティング研究ユニット（ArtIC）",
+        "period": "2025/12 - 現在",
+        "description": "AIコンピューティングに関する研究。NeurIPS、ISSCC、HPCA、ISCAなどのトップカンファレンスに毎年論文を投稿している研究室。"
+      },
+      {
+        "type": "education",
+        "title": "学士課程（情報通信系）",
+        "organization": "東京科学大学 工学院 情報通信系",
+        "period": "2023 - 現在",
+        "description": "計算機科学・工学を専攻。"
+      }
+    ]
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "共同研究やご質問がございましたら、お気軽にご連絡ください。",
+    "email": "yukiiw611@gmail.com",
+    "emailLabel": "メール",
+    "linksLabel": "SNS"
+  },
+  "footer": {
+    "copyright": "© 2026 Yuki Iwahashi. All rights reserved."
+  }
+}
